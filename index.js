@@ -53,6 +53,12 @@ const promptUser = () => {
                 type: 'input',
                 message: 'What is your GitHub username?',
             },
+             // Enter your email
+             {
+                name: 'email',
+                type: 'input',
+                message: 'What is your email address?',
+            },
             
         ]).then((answers) => {
             

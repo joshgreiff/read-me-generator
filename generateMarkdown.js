@@ -45,9 +45,20 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseSection(data.license)}
+  ##Table of Contents
+1. [DESCRIPTION](#Description)
+2. [INSTALLATION](#Installation)
+3. [USAGE INFO](#Usage info)
+4. [CONTRIBUTION GUIDELINES](#Contribution Guidelines)
+5. [TESTING](#Testing)
+6. [GITHUB LINK](#Github)
+7. [EMAIL ME](#Email)
+
+
+
   ##DESCRIPTION
   ${data.description}
-  ##INSTALATION
+  ##INSTALLATION
   ${data.installation}
   ##USAGE INFO
   ${data.usage}
@@ -55,7 +66,12 @@ function generateMarkdown(data) {
   ${data.contribution}
   ##TESTING
   ${data.test}
+  ##GITHUB LINK
+  github.com/${data.ghuser}
 
+
+  ##EMAIL ME 
+  ${data.email} for more information or if you have any questions about the project
 `;
 }
 
