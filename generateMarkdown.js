@@ -56,21 +56,21 @@ function generateMarkdown(data) {
 
 
 
-  ##DESCRIPTION
-  ${data.description}
-  ##INSTALLATION
-  ${data.installation}
-  ##USAGE INFO
-  ${data.usage}
-  ##CONTRIBUTION GUIDELINES
-  ${data.contribution}
-  ##TESTING
-  ${data.test}
-  ##GITHUB LINK
-  github.com/${data.ghuser}
+  ##DESCRIPTION__
+  ${data.description}__
+  ##INSTALLATION__
+  ${data.installation}__
+  ##USAGE INFO__
+  ${data.usage}__
+  ##CONTRIBUTION GUIDELINES__
+  ${data.contribution}__
+  ##TESTING__
+  ${data.test}__
+  ##GITHUB LINK__
+  github.com/${data.ghuser}__
 
 
-  ##EMAIL ME 
+  ##EMAIL ME __
   ${data.email} for more information or if you have any questions about the project
 `;
 }
